@@ -21,8 +21,8 @@ namespace iyzicoÖdeme.Controllers
         public IActionResult payadd([FromBody] PaymentModel paymentModel)
         {
             Options options = new Options();
-            options.ApiKey = "";
-            options.SecretKey = "";
+            options.ApiKey = "sandbox";
+            options.SecretKey = "sandbox";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
