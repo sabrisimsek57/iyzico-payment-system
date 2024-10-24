@@ -18,8 +18,8 @@ namespace iyzicoÖdeme.Controllers
         public async  Task<IActionResult> Paymentt() 
         {
             Options options = new Options();
-            options.ApiKey = "sandbox-v5JlOoHlj1doL2auFTwP93wPEfaMxAEv";
-            options.SecretKey = "sandbox-vFVQXoaw1BXQuFMsq3vwnmbj4MXuUpBU";
+            options.ApiKey = "sandbox";
+            options.SecretKey = "sandbox";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
