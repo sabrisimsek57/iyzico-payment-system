@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iyzicoÖdeme", "iyzicoÖdeme\iyzicoÖdeme.csproj", "{46714BC2-3273-476A-B044-411ED8EB8032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{08327EDC-0BFD-452F-ADF3-3D6895C3C19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ödemesistemi", "ödemesistemi\ödemesistemi.csproj", "{40502F26-7814-4C46-ADA7-643CEE34CD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46714BC2-3273-476A-B044-411ED8EB8032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46714BC2-3273-476A-B044-411ED8EB8032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46714BC2-3273-476A-B044-411ED8EB8032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46714BC2-3273-476A-B044-411ED8EB8032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40502F26-7814-4C46-ADA7-643CEE34CD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40502F26-7814-4C46-ADA7-643CEE34CD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40502F26-7814-4C46-ADA7-643CEE34CD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40502F26-7814-4C46-ADA7-643CEE34CD63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40502F26-7814-4C46-ADA7-643CEE34CD63} = {08327EDC-0BFD-452F-ADF3-3D6895C3C19D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD2A83B1-B5ED-45E6-BE53-F02DB54418FF}
+	EndGlobalSection
+EndGlobal

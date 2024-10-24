@@ -1,0 +1,47 @@
+﻿@using iyzicoÖdeme
+@model PaymentModel
+@{
+    Layout = null;
+}
+
+<h2>Payment</h2>
+
+
+
+<!-- Ödeme formu -->
+<form asp-action="Pay" method="post" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label>Card Holder Name</label>
+        <input asp-for="CardHolderName" class="form-control" required />
+        <div class="invalid-feedback">Please enter the card holder's name.</div>
+    </div>
+    <div class="form-group">
+        <label>Card Number</label>
+        <input asp-for="CardNumber" class="form-control" required />
+        <div class="invalid-feedback">Please enter a valid card number.</div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6">
+            <label>Expiration Month</label>
+            <input asp-for="ExpireMonth" class="form-control" required />
+            <div class="invalid-feedback">Please enter the expiration month.</div>
+        </div>
+        <div class="col-md-6">
+            <label>Expiration Year</label>
+            <input asp-for="ExpireYear" class="form-control" required />
+            <div class="invalid-feedback">Please enter the expiration year.</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>CVC</label>
+        <input asp-for="Cvc" class="form-control" required />
+        <div class="invalid-feedback">Please enter the CVC code.</div>
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input asp-for="Price" class="form-control" required />
+        <div class="invalid-feedback">Please enter the price.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Pay</button>
+</form>
+
